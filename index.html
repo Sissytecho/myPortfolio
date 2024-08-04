@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio  </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </head>
+  <body>
+    <nav>
+        <div class='logo'>Balogun
+            <span>A. Rofiat</span>
+        </div>
+        <div class="nav-container">
+          <div class="links">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Services">Services</a>
+            <a href="#Contact">Contact</a>
+            
+          </div>
+        </div>
+        <ion-icon name="menu-outline" class="open" onclick="openMenu()"></ion-icon>
+        <div class="dropdown">
+          <div class="links">
+            <a href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Services">Services</a>
+            <a href="#Contact">Contact</a>
+            <ion-icon name="close-outline" class="close" onclick="closeMenu()"></ion-icon>
+          </div>
+        </div>
+        </nav>
+    
+    <section class="Home" id="home">
+      <div class="home-content"> 
+        <h1>Hi, It's <span>Dattechgurl</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+          Voluptate eligendi perspiciatis incidunt fuga, <br>temporibus consectetur dolor 
+          reiciendis at assumenda earum<br> alias accusantium molestias 
+          commodi voluptates numquam, natus quae. Quaerat, commodi! </p>
+
+          <div class="social-icons">
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+
+          </div>
+          <div class="btn-grp">
+            <a href="#Projects" class="btn">Projects</a>
+            <a href="#Contact" class="btn">Contact</a>
+          </div> 
+        </div>
+          <div class="home-img">
+            <img src="asset/images/my.png" alt="">
+          </div>
+     
+    </section>
+    <section class="About" id="About">
+      <div class="About-img"><img src="asset/images/my.png" alt=""></div>
+
+      <div class="About-content">
+      <h2 class="heading"> ABOUT <span>Me</span></h2>
+    <h3>Frontend Developer</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nesciunt suscipit, provident odio non omnis!Tenetur eos reiciendis officiis neque.
+      Voluptatibus pariatur quis aspernatur ad quidem at vero amet quam!</p>
+      <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <section class="Services" id="Services">
+     <h2  class="heading">My <span>Services</span></h2>
+     <div class="Services-container">
+      <div class="Services-box">
+        <ion-icon></ion-icon>
+        <h3>Frontend Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, deleniti mollitia saepe in earum laudantium iste iure obcaecati tempora officiis a praesentium neque ea
+           cupiditate asperiores. Dignissimos nesciunt sunt at? </p>
+           <a href="#" class="btn">Read More</a>
+      </div>
+      <div class="Services-box">
+        <ion-icon></ion-icon>
+        <h3>Shopify Store Developer</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, deleniti mollitia saepe in earum laudantium iste iure obcaecati tempora officiis a praesentium neque ea
+           cupiditate asperiores. Dignissimos nesciunt sunt at? </p>
+           <a href="#" class="btn">Read More</a>
+      </div>
+     </div>
+    </section>
+    <section class="Projects" id="Projects">
+<h2 class="heading">Latest <span>Projects</span></h2>
+<div class="Projects-container">
+<div class="Projects-box">
+  <img src="asset/images/bck.jpg" alt="">
+  <div class="Projects-layer">
+    <h4>NGO Web Design</h4>
+    <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit</p>
+    <ion-icon>  </ion-icon>
+  </div>
+
+</div>
+<div class="Projects-box">
+  <img src="asset/images/bck.jpg" alt="">
+  <div class="Projects-layer">
+    <h4>shopify store developed</h4>
+    <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit</p>
+    <ion-icon>  </ion-icon>
+  </div>
+
+</div>
+<div class="Projects-box">
+  <img src="asset/images/bck.jpg" alt="">
+  <div class="Projects-layer">
+    <h4>shopify store developed</h4>
+    <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit</p>
+    <ion-icon>  </ion-icon>
+  </div>
+
+</div>
+<div class="Projects-box">
+  <img src="asset/images/bck.jpg" alt="">
+  <div class="Projects-layer">
+    <h4>NGO Web Design</h4>
+    <p>Lorem ipsum dolor sit amet consectetur,adipisicing elit</p>
+    <ion-icon>  </ion-icon>
+  </div>
+
+</div>
+</div>
+    </section>
+    <section  class="Contact" id="Contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="">
+      <div class="Input-field">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" required>
+          <input type="Email" placeholder="Email" required>
+
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Phone Number">
+          <input type="text" placeholder="Subject" required>
+        </div>
+
+      </div>
+      <div class="input-field1">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+        <input type="submit" value="Send Message" class="btn">
+
+      </div>
+      </form>
+
+    </section>
+    <section class="footer">
+       <div class="social-icon">
+        <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+
+       </div>
+       <ul class="list">
+        <li>
+          <a href="#">FAQ</a>
+          
+        </li>
+        <li>
+          <a href="#">Services</a>
+          
+        </li>
+        <li>
+          <a href="#">About Me</a>
+          
+        </li>
+        <li>
+          <a href="#">Contact</a>
+          
+        </li>
+        <li>
+          <a href="#">Projects</a>
+          
+        </li>
+
+       </ul>
+       <p class="copyright">
+        @ Balogun A Rofiat | All rights reserved.
+       </p>
+    </section>
+   
+<script src="index.js"></script>
+    
+  </body>
+</html>
